@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4b4b4b"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:text="先攻"
+        android:gravity="center"
+        />
+    
+    <EditText 
+        android:id="@+id/fast"
+        android:background="#b4b4b4"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="number"
+        android:text="0"
+        android:gravity="center"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:text="防御"
+        android:gravity="center"
+        />
+    
+    <EditText 
+        android:id="@+id/defense"
+        android:background="#b4b4b4"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="number"
+        android:text="0"
+        android:gravity="center"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:text="闪避"
+        android:gravity="center"
+        />
+    
+    <EditText 
+        android:id="@+id/dodge"
+        android:background="#b4b4b4"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="number"
+        android:text="0"
+        android:gravity="center"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="15dp"
+        android:text="王者"
+        android:gravity="center"
+        />
+    
+    <EditText 
+        android:id="@+id/king"
+        android:background="#b4b4b4"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="number"
+        android:text="0"
+        android:gravity="center"
+        />
+    
+    <Button 
+        android:id="@+id/jump"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="15dp"
+        android:text="计算"
+        android:gravity="center"
+        />
+    
+
+</LinearLayout>
